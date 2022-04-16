@@ -24,8 +24,155 @@ multi choice
   }
 </script>
 
+
+import jave.util.Scanner;
+
 public class App {
     public static void main(String [] args) {
+    
+    Scanner keyboardInput = new Scanner(System.in);
+    
+    System.out.print("Enter a color: ");
+    String color = keyboardInput.nextLine();
+    System.out.print("Enter a plural noun");
+    String pluralNoun = keyboardInput.nextLine();
+    System.out.print("Enter a celebrity: ");
+    String celebrity = keyboardInput.nextLine();
+    
+    
+    System.out.println("Roses are " + color + " \n"
+                        + pluralNoun + " are blue \n"
+                        + "I love " + celebrity);
+    
+        }
+    }
+    
+    // simple syntax semantics structure level:rookie
+     
+     import jave.util.Scanner;
+
+public class App {
+    public static void main(String [] args) {
+    
+    Scanner keyboardInput = new Scanner(System.in);
+    
+    System.out.print("Enter a subject: brother ");
+    String subject = keyboardInput.nextLine();
+    System.out.print("Enter a Verb: runnning game");
+    String Verb = keyboardInput.nextLine();
+   
+    
+    System.out.println("Red is " + subject + " \n"
+                        + Verb + " has her feelings blue \n";
+    
+        }
+    }
+    
+    // 2
+    
+    import jave.util.Scanner;
+
+public class App {
+    public static void main(String [] args) {
+    
+    Scanner keyboardInput = new Scanner(System.in);
+    
+    System.out.print("Enter a subject: ");
+    String subject = keyboardInput.nextLine();
+    System.out.print("Enter a verb");
+    String verb = keyboardInput.nextLine();
+    System.out.print("Enter a object: ");
+    String object = keyboardInput.nextLine();
+    
+    
+    System.out.println("Roses are " + subject + " \n"
+                        + verb + " are blue \n"
+                        + "I love " + object);
+    
+        }
+    }
+    
+    // 3
+    
+    import jave.util.Scanner;
+
+public class App {
+    public static void main(String [] args) {
+    
+    Scanner keyboardInput = new Scanner(System.in);
+    
+    System.out.print("Enter a subject: ");
+    String subject = keyboardInput.nextLine();
+    System.out.print("Enter a verb");
+    String verb = keyboardInput.nextLine();
+    System.out.print("Enter a adjective: ");
+    String adjective = keyboardInput.nextLine();
+    
+    
+    System.out.println("Roses are " + subject + " \n"
+                        + verb + " are blue \n"
+                        + "I love " + adjective);
+    
+        }
+    }
+    
+    // 4 
+    
+    import jave.util.Scanner;
+
+public class App {
+    public static void main(String [] args) {
+    
+    Scanner keyboardInput = new Scanner(System.in);
+    
+    System.out.print("Enter a subject: ");
+    String subject = keyboardInput.nextLine();
+    System.out.print("Enter a verb");
+    String verb = keyboardInput.nextLine();
+    System.out.print("Enter a Adverb: ");
+    String Adverb = keyboardInput.nextLine();
+    
+    
+    System.out.println("Roses are " + subject + " \n"
+                        + verb + " are blue \n"
+                        + "I love " + adverb);
+    
+        }
+    }
+    
+    // 5
+    
+    import jave.util.Scanner;
+
+public class App {
+    public static void main(String [] args) {
+    
+    Scanner keyboardInput = new Scanner(System.in);
+    
+    System.out.print("Enter a subject: ");
+    String subject = keyboardInput.nextLine();
+    System.out.print("Enter a verb");
+    String verb = keyboardInput.nextLine();
+    System.out.print("Enter a Noun: ");
+    String object = keyboardInput.nextLine();
+    
+    
+    System.out.println("Roses are " + subject + " \n"
+                        + verb + " are blue \n"
+                        + "I love " + noun);
+    
+        }
+    }
+    
+    // compound sentences sematincs level:mid
+    
+    
+    
+    
+    
+    
+    // different ways to get the same result.
+    
     String q1 = "whats the color of favorite apple" 
               + (a)red/green\n(b)Orange\n(c)<Magenta\n;
               
