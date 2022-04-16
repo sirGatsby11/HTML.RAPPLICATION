@@ -1,0 +1,48 @@
+<DIRECTOBJECTORIENTATED>
+<HTML>
+<JAVA>
+
+<TITLE><THE NEWTONIAN>
+</TITLE> 
+
+<HEADER>Rigsin's article: Top:50rappers dead or alive</HEADER>
+
+
+<BODY>imgsrc="photo" 
+catalog of ss/ws
+
+
+</BODY>
+
+multi choice 
+<button id="3" onClick="reply_click(this.id)">B3</button>
+    
+<script type="text/javascript">
+  function reply_click(clicked_id)
+  {
+      alert(clicked_id);
+  }
+</script>
+
+public class App {
+    public static void main(String [] args) {
+    String q1 = "whats the color of favorite apple" 
+              + (a)red/green\n(b)Orange\n(c)<Magenta\n;
+              
+    String q2 = "what morf of traingle"
+              + (a)acute\n(b)obtuse\n(c)<right\n;
+    
+    String q3 = 
+    }
+  }
+  
+  
+  public class Question {
+    String prompt;
+    String answer;
+    
+  public Question(String prompt, String answer)
+       this.prompt = prompt;
+       this.answer = answer;
+       
+  }
